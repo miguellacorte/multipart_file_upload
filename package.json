@@ -1,17 +1,26 @@
 {
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "formidable": "^2.1.1",
+    "fs": "^0.0.1-security"
+  },
   "name": "multipart_file_upload",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "main": "upload.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguellacorte/multipart_file_upload.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "formidable": "^2.1.1",
-    "fs": "^0.0.1-security",
-    "nodemon": "^2.0.20"
-  }
+  "bugs": {
+    "url": "https://github.com/miguellacorte/multipart_file_upload/issues"
+  },
+  "homepage": "https://github.com/miguellacorte/multipart_file_upload#readme",
+  "description": ""
 }
